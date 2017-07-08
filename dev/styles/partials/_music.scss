@@ -18,7 +18,6 @@
 
 .spotify, .itunes {
 	width: 50%;
-	//height: 100%;
 	text-align: left;
     position: relative;
     top: 50%;
@@ -30,6 +29,12 @@
 	button {
 		background-color: #2ebd59;
 	}
+}
+
+.spotifyContainer, .itunesContainer {
+	margin-left: 145px;
+    margin-right: 94px;
+    margin-top: 139px;
 }
 
 .itunes {

@@ -3,7 +3,7 @@
 }
 
 .skiImage, .skiText {
-	width: 50%;
+	width: 100%;
 }
 
 .skiImage {
@@ -23,6 +23,10 @@
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    margin-left: 56px;
+    margin-right: 255px;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
     h3 {
     	color: #666666;
     	font-size: 24px;

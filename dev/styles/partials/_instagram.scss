@@ -19,14 +19,17 @@
 		font-weight: 700;
 		text-transform: uppercase;
 		letter-spacing: 1px;
+		margin: 0;
 	}
 	p {
 		color: #f9f9f9;
 		font-weight: 300;
 		font-size: 36px;
+		margin-top: 0;
 	}
 	button {
         background-color: #3f729b;
+        margin-bottom: 118px;
 	}
 }
 
@@ -40,6 +43,12 @@
     top: 50%;
     transform: translateY(-50%);
     height: 100%;
+    margin-left: 212px;
+    margin-right: 95px;
+    padding-bottom: 118px;
+    margin-top: 124px;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
 }
 
 .instagramPhoto, .solidColor {
@@ -47,10 +56,9 @@
 }
 
 .instagramPhoto {
-	//height: 100%;
 	width: 100%;
 	img {
-		//height: 100%;
+		height: 100%;
     	z-index: -1;
 	}
 }

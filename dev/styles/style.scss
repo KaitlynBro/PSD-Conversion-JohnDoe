@@ -9,6 +9,7 @@ body {
 	font-family: 'Fira Sans', sans-serif;
 }
 
+
 button {
     border-width: 1.87px;
     border-color:  #ffffff;
@@ -20,4 +21,47 @@ button {
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
-	}
+}
+
+//media queries
+
+@media only screen and (max-width: 1200px) {
+    button, .instagramDiv1 button {
+        margin-bottom: 195px;
+    }
+    .photosRow1 {
+        flex-direction: column;
+    }
+    .skiImage, .skiText {
+        width: 100%;
+    }
+    .skiContainer {
+        transform: translateY(0%);
+        h3 {
+            margin: 0;
+        }
+    }
+    .instagramContainer {
+        width: 100%;
+    }
+    .instagramPhoto img {
+        display: none;
+    }
+    .instagramDiv1 {
+        width: 100%;
+    }
+    .followMe {
+        flex-direction: column;
+        background-color: #282b2f;
+        background-image: none;
+    }
+    .spotify, .itunes {
+        width: 100%;
+    }
+    .itunesButton {
+        margin-bottom: 0;
+    }
+    .subscribe {
+        display: none;
+    }
+}
