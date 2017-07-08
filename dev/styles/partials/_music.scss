@@ -1,0 +1,41 @@
+.followMe {
+	display: flex;
+	background-image:linear-gradient(to right,  #2ebd59 50%, #282b2f 50%);
+
+	h3 {
+		color: #f9f9f9;
+		font-weight: 700;
+		font-size: 24px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	}
+	p {
+		color: #f9f9f9;
+		font-size: 36px;
+		font-weight: 300;
+	}
+}
+
+.spotify, .itunes {
+	width: 50%;
+	//height: 100%;
+	text-align: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.spotify {
+	background-color: #2ebd59;
+	button {
+		background-color: #2ebd59;
+	}
+}
+
+.itunes {
+	background-color: #282b2f;
+	button {
+		background-color: #282b2f;
+	}
+}
+

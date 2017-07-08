@@ -1,0 +1,53 @@
+.photosRow1 {
+	display: flex;
+}
+
+.skiImage, .skiText {
+	width: 50%;
+}
+
+.skiImage {
+	overflow: hidden;
+	img {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.skiText {
+	background-color: #f3f1ef;
+}
+
+.skiContainer {
+	text-align: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    h3 {
+    	color: #666666;
+    	font-size: 24px;
+    	font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    p {
+    	color: #666666;
+    	font-weight: 300;
+    	font-size: 35px;
+    	margin-bottom: 0;
+    	margin: 0;
+    }
+}
+
+.photosRow2 {
+	display: flex;
+}
+
+.skiPhoto {
+	max-width: 25%;
+	overflow: hidden;
+    img {
+        height: 100%;
+    }
+}
+

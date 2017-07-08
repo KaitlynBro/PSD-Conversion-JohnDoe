@@ -1,0 +1,23 @@
+@import 'partials/header';
+@import 'partials/sports';
+@import 'partials/instagram';
+@import 'partials/music';
+@import 'partials/footer';
+
+body {
+	margin: 0 auto;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+button {
+    border-width: 1.87px;
+    border-color:  #ffffff;
+    border-style: solid;
+    width: 280px;
+    height: 56px;
+    border-radius: 22px;
+    color: #f9f9f9;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+	}
